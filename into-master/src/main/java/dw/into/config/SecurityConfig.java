@@ -45,7 +45,11 @@ public class SecurityConfig {
                                 new AntPathRequestMatcher("/login"),
                                 new AntPathRequestMatcher("/into/**"),
                                 new AntPathRequestMatcher("/ws/**"),
-                                new AntPathRequestMatcher("/error")
+                                new AntPathRequestMatcher("/error"),
+                                new AntPathRequestMatcher("/api/studyroom"),
+                                new AntPathRequestMatcher("/api/stream/lectures"),
+                                new AntPathRequestMatcher("/api/mock/**")
+
                         ).permitAll()
                         .requestMatchers("/uploads/**").denyAll()
                         .anyRequest().authenticated())

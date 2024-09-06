@@ -67,4 +67,8 @@ public class PurchaseController {
         return ResponseEntity.ok(purchasedLectures);
     }
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
