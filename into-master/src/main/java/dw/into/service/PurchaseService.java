@@ -112,8 +112,4 @@ public class PurchaseService {
     }
 
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes

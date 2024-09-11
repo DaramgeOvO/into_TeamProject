@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,7 +20,7 @@ public class Reply {
     private String replyText;
 
     @ManyToOne
-    @JoinColumn(name = "freeBoard_id")
+    @JoinColumn(name = "qna_id")
     private QnA qnA;
 
     @ManyToOne

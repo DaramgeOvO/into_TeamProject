@@ -2,7 +2,6 @@ package dw.into.repository;
 
 import dw.into.model.Mock;
 import dw.into.model.MockTicket;
-import dw.into.model.StoreItem;
 import dw.into.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
